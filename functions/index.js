@@ -11,7 +11,7 @@ app.use(cors({
     origin: 'https://tvk-pipeline.netlify.app'
   }));
 app.use(express.json());
-
+console.log("hi");
 const router = express.Router();
 app.use(express.urlencoded({ extended: true }));
 
